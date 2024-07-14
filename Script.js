@@ -1,3 +1,7 @@
+if (window.location.pathname !== '/index.html') {
+    window.location.href = '/index.html';
+}
+
 document.addEventListener('DOMContentLoaded', function() {
     const clickedButton = localStorage.getItem('clickedButton');
     if (clickedButton) {
