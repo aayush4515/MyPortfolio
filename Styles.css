@@ -1,3 +1,10 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
 #nav-bar {
     margin-left: 40%;
 }
@@ -27,6 +34,10 @@ h1 {
     font-size: 18px;
     font-family: Helvetica, serif;
     margin-top: 0px;
+}
+
+.intro {
+    margin-left: 10px;
 }
 
 .button-link {
