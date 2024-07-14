@@ -5,19 +5,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
+    <link rel="stylesheet" href="Styles.css">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Pacifico&display=swap" rel="stylesheet">
+
+
 </head>
 
 <body>
-    <h1>Aayush's Portfolio</h1>
-    <h5>Welcome to My Portfolio!</h5>
-    <hr>
 
-    <a href="index.html">Home</a>
-    <a href="Pages/About.html">About</a>
-    <a href="Pages/Contact.html">Contact</a>
+    <div id="header">
+        <h1>Aayush's Portfolio</h1>
+        <h5 id="welcome">Welcome!</h5>
+        <hr>
+    </div>
 
-    <p>This is my hone page</p>
 
+    <div id="nav-bar">
+
+        <a href="index.html" class="button-link" id="home">
+            <button class="nav-button button-text">Home</button>
+        </a>
+
+        <a href="Pages/About.html" class="button-link" id="about">
+            <button class="nav-button button-text">About</button>
+        </a>
+
+        <a href="Pages/Portfolio.html" class="button-link" id="portfolio">
+            <button class="nav-button button-text">Portfolio</button>
+        </a>
+
+        <a href="Pages/Contact.html" class="button-link" id="contact">
+            <button class="nav-button button-text">Contact</button>
+        </a>
+
+    </div>
+
+
+    <p>This is my Home page</p>
+
+    <script src="Script.js"></script>
 </body>
 
 </html>

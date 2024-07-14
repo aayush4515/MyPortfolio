@@ -1,0 +1,63 @@
+#nav-bar {
+    margin-left: 40%;
+}
+
+#header {
+    background-color: aqua;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    font-family: Caveat;
+    font-size: 50px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+
+#welcome {
+    color: black;
+    text-align: center;
+    font-size: 18px;
+    font-family: Helvetica, serif;
+    margin-top: 0px;
+}
+
+.button-link {
+    text-decoration: none;
+}
+
+.button-text:hover {
+    cursor: pointer;
+}
+
+.nav-button {
+    background-color: transparent;
+    margin-right: 10px;
+    border-radius: 999px;
+    border: 1px solid transparent;
+    padding: 0.5rem;
+    transition: all 0.3s ease;
+}
+
+.nav-button:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.5);
+}
+
+.nav-button.clicked {
+    border-color: cornflowerblue;
+    background: linear-gradient(-90deg, rgb(29, 165, 210), grey);
+    box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+.button-text {
+    color: black;
+    font-weight: 400;
+    font-family: Helvetica;
+    font-size: .875rem;
+    text-transform: uppercase;
+}
