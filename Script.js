@@ -1,4 +1,8 @@
 document.addEventListener('DOMContentLoaded', function() {
+    if (window.location.pathname === "/MyPortfolio/") {
+        window.location.replace("/MyPortfolio/index.html");
+    }
+
     const clickedButton = localStorage.getItem('clickedButton');
     if (clickedButton) {
         document.getElementById(clickedButton).querySelector('.nav-button').classList.add('clicked');
