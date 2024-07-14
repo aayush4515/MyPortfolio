@@ -51,6 +51,11 @@
 
     <p class="intro">This is my Home page</p>
 
+    <script>
+        if (window.location.pathname !== '/index.html') {
+            window.location.href = '/index.html';
+        }
+    </script>
     <script src="Script.js"></script>
 </body>
 
